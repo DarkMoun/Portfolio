@@ -1,12 +1,9 @@
 <html>
 
 <head>
-
 <title>Mounswif Darkaoui</title>
 <meta charset="utf-8" />
 <link rel="stylesheet" href="css/home.css" />
-
-
 </head>
 
 
