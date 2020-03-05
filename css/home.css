@@ -1,9 +1,12 @@
 * {
     padding: 0px;
-    margin: 0px;
+	margin: auto;
 	font-family: sans-serif;
 }
 
+header {
+	display: none;
+}
 /*body {
     background-image: url('background.png');
     background-position: center;
@@ -25,7 +28,6 @@
 }
 
 #content {
-	margin: auto;
 	width: 80%;
 }
 
