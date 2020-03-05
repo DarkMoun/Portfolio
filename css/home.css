@@ -59,7 +59,6 @@ a {
     background-color: black;
     color: white;
     position: fixed;
-	left: 50%;
 }
 
 #title_proj {
@@ -74,6 +73,7 @@ a {
 }
 
 #introduction {
+	left: 50%;
 	text-align: justify;
 	width: 80%;
 	position: absolute;
