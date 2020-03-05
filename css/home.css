@@ -52,13 +52,14 @@ a {
 }
 
 #header {
-	margin: auto;
+	margin: 0px;
     height: 50px;
     width: 100%;
     text-align: center;
     background-color: black;
     color: white;
     position: fixed;
+	left: 50%;
 }
 
 #title_proj {
