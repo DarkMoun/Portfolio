@@ -12,11 +12,6 @@
     height: 100%;
 }*/
 
-
-#Projects {
-    margin-top: 100px;
-}
-
 #image_proj {
 	display: block;
 	margin: auto;
@@ -54,7 +49,6 @@
 }
 
 #header {
-    margin-top: -100px;
     height: 50px;
     width: 100%;
     text-align: center;

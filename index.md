@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -17,7 +16,7 @@
             <img src="" id="left_btn"/>
 			<div id="content">
 				<div id="title_proj"></div>
-				<br/><br/><img src="" id="image_proj"/></a>
+				<br/><br/><img src="" id="image_proj"/>
 				<p id="introduction"></p>
 				<br/><br/><br/><p id="description"></p>
 				<br/><br/><hr id="separation">
