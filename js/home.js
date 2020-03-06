@@ -12,7 +12,7 @@ var intro = document.getElementById("introduction");
 var image = document.getElementById("image_proj");
 var separation = document.getElementById("separation");
 
-intro.innerHTML = "I am Mounswif Darkaoui, a game developer and a huge fan of video games. On this web site you can see the games I worked on..";
+intro.innerHTML = "I am Mounswif Darkaoui, a game developer and a huge fan of video games. On this web site you can see the games I worked on.";
 displayIntro();
 
 var images = {};
@@ -73,14 +73,14 @@ function afficher(n){
 
 	switch(n){
 		case 0:
-			lbtn.src = "";
+			lbtn.style.display = "none";
 			title.innerHTML = "";
 			image.src = "";
 			descr.innerHTML = "";
 			displayIntro();
 			break;
 		case 1:
-			lbtn.src = "png/left_arrow.png";
+			lbtn.style.display = "block";
 			title.innerHTML = "E-LearningScape";
 			image.src = images[1][0].src;
 			descr.innerHTML = "&emsp;&emsp;On this project I had to adapt and reproduce as a video game an existing physical escape game originally made by SAPIENS of the university Sorbonne Paris Cité. The purpose of this escape game is to deliver pedagogic notions to new teachers researchers who didn't have a teacher formation. In addition, the development of this project was an opportunity to test an improve two tools developed by MOCAH team of Lip6. I was the only gameplay developer of this game, and I worked with a graphic designer, a game designer, a tool developper and several pedagogy engineers.";
@@ -102,7 +102,7 @@ function afficher(n){
 			hideIntro();
 			break;
 		case 4:
-			rbtn.src = "png/right_arrow.png";
+			rbtn.style.display = "block";
 			title.innerHTML = "Ping Pong Kinect";
 			image.src = images[4][0].src;
 			descr.innerHTML = "&emsp;&emsp;I developed this student project alone as part of a virtual environment and interactions course. We were free to decide what to develop knowing that for grading the teachers would focus on artificial intelligence and interaction. Having a Kinect V2 I chose to do my first project with it and I made a ping pong game in which the player would face AIs with various levels, and with a mode in which the AI adapts its level to the player's level. I got the second best grade with this project, with the first being a reproduction of the maze of the movie \"The Maze Runner\".";
@@ -110,7 +110,7 @@ function afficher(n){
 			hideIntro();
 			break;
 		case 5:
-			rbtn.src = "";
+			rbtn.style.display = "none";
 			title.innerHTML = "Cube Okare";
 			image.src = images[5][0].src;
 			descr.innerHTML = "&emsp;&emsp;This is a personal project and one of the projects I made to keep practicing while I didn't have a job. The goal of this project was to make a fun local multiplayer game. To win, a player has to color a maximum of cubes in a given time by moving on them. This project is not finished, and the next logical and necessary improvements are a menu to set a game and an AI.";
