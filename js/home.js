@@ -12,6 +12,7 @@ var intro = document.getElementById("introduction");
 var image = document.getElementById("image_proj");
 var separation = document.getElementById("separation");
 
+lbtn.style.display = "none";
 intro.innerHTML = "I am Mounswif Darkaoui, a game developer and a huge fan of video games. On this web site you can see the games I worked on.";
 displayIntro();
 
