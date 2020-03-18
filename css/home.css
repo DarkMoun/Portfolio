@@ -63,6 +63,27 @@
     position: fixed;
 }
 
+#langEn, #langFR {
+    margin-top: -95px;
+	right: 10px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    position: fixed;
+	font-size: 30px;
+	font-weight: 100;
+}
+
+#langEn:hover, #langFR:hover {
+    color: steelblue !important;
+	cursor: pointer !important;
+	font-size: 33px !important;
+}
+
+#langEN {
+	right: 70px;
+}
+
 #title_proj {
 	text-align: center;
 	font-weight: bold;
@@ -78,7 +99,7 @@
 	text-align: justify;
 	width: 70%;
 	position: absolute;
-	top: 40%;
+	top: 35%;
 	font-weight: bold;
 	font-size: 50px;
 }
